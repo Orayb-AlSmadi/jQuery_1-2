@@ -5,6 +5,13 @@
 	<meta charset="utf-8">
 	<title>Exercises</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<style type="text/css">
+		textarea {
+			display: block;
+			margin: 1em 0;
+		}
+	</style>
 </head>
 
 <body>
@@ -78,11 +85,11 @@
 
 
 	<p>delay() method sets diffrent speed values.</p>
-	<button>Click to fade in boxes with a delay</button>
-	<div id="div1" style="width: 100px;height: 90px;display:none;background-color: #9F81F7;"></div><br>
-	<div id="div2" style="width: 100px;height: 90px;display: none;background-color: #0B610B;"></div><br>
-	<div id="div3" style="width: 100px;height: 90px;display: none;background-color: #61210B;"></div><br>
-
+	<button id= "fade">Click to fade in boxes with a delay</button>
+	<div class= "fade1" id="div1" style="width: 100px;height: 90px;display:none;background-color: #9F81F7;"></div><br>
+	<div class= "fade2" id="div2" style="width: 100px;height: 90px;display: none;background-color: #0B610B;"></div><br>
+	<div class= "fade3" id="div3" style="width: 100px;height: 90px;display: none;background-color: #61210B;"></div><br>
+    <button id= "fadeout">Click to fade out boxes with a delay</button>
 
 	<h1>Q5</h1>
 	<input id="accept" name="accept" type="checkbox" value="y" />I accept<br>
@@ -108,15 +115,16 @@
 
 
 	<h1>Q8</h1>
-	<p>Hello World</p>
-	<p>Rashed: cascading style sheets</p>
-	<p>Madrasa</p>
+	<p class="booold">Hello World</p>
+	<p class="booold">Rashed: cascading style sheets</p>
+	<p class="booold">Madrasa</p>
 
 
 	<h1>Q9</h1>
 	<p>Here should be some text probably with some sense within but its friday so im really really tired</p>
 	<input type="button" value="Click to add new div" onclick="new_div()" />
 
+	<div id= "new"> </div>
 
 	<h1>Q10</h1>
 	<div id="divSelect"></div>
